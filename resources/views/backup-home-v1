@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
+        <title>{{ config('app.name', 'Laravel') }}</title>
+<!-- font aowsome icons -->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+
+        <!-- Styles -->
+        <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <link rel="stylesheet" href="{{ mix('css/home.css') }}">
+        @livewireStyles
+
+        <!-- Scripts -->
+        <script src="{{ mix('js/app.js') }}" defer></script>
+        <script src="{{ mix('js/dragble.js') }}" defer></script>
+        <style>
+
+</style>
+    </head>
+<body class="r-0 mr-0 p-0  select-none">
+  <header class="h-50 w-full py-5" >
+ <nav class="flex flex-row w-full h-full justify-center #bg-red-600  content-center   justify-items-center  list-none ">
+     <img src="{{ asset('images/logo.png') }}"  width="90px" height="90px" class="left-0 m-0 t-0   p-0 "></img
+     ><li class="px-3 mx-3 my-3 cursor-pointer">تطبيقات</li>
+     <li class="px-3 mx-3 my-3 cursor-pointer">التسويق</li>
+     <li class="px-3 mx-3 my-3 cursor-pointer">التصاميم</li>
+     <li class="px-3 mx-3 my-3 cursor-pointer">برمجة</li>
+     <li class="px-5 mx-2 my-3 cursor-pointer">الاسعار</li>
+     <li class="px-5 mx-2 my-3 cursor-pointer">الرئيسية</li>
+    </nav>
+    <div id="mydiv" class="hidden">
+  <div id="mydivheader"> الحاسبة ✥</div>
+  <p> sr 0 :السعر</p>
+  <p> 0 :العدد</p>
+  <p> <input class="descount h-1 w-2 " placeholder="الصق الكود هنا " type="text"/>:كود خصم</p>
+  <p> sr 0 :الاجمالي</p>
+</div>
+
+</header>
+<section class="flex flex-row ml-50  h-40 md:h-30 w-full md:w-full right-0   #bg-blue-400 justify-end md:justify-end justify-items-end content-end ">
+   <div class="continer_first z-1 relative flex flex-col justify-items-center content-center p-4 #bg-green-700 mr-8">
+<p class="text-yellow-500 text-3xl">كل مايحتاجه التاجر الالكتروني</p><p class=" text-2xl font-bold absolute right-0 bottom-0 m-5">خطوة بخطوة</p>
+</div>
+</section>
+<div class="anmition_container w-full h-screen #bg-blue-800 flex " >
+
+<aside class="relative #bg-red-500 w-1/2 lg:gap-10 flex flex-col">
+<img class="mt-0 top-0 w-52 lg:w-72 " src="{{ asset('images/aqua.svg') }}"  
+ alt="aqua" />
+<img class="z-2 absolute left-0 ml-11 mt-5 w-52 lg:w-72" src="{{ asset('images/hand_2.svg')}}" 
+ alt="حدد باقتك">
+
+<img class=" absolute bottom-10 w-52 lg:w-72" src="{{ asset('images/purple.svg') }}"  
+  alt="purple" />
+<img class="z-2  absolute bottom-0 mb-3 ml-11 w-52 lg:w-72" src="{{ asset('images/hand_3.svg')}}" >
+</aside>
+
+
+<aside class=" relative  #bg-green-500 w-1/2 flex flex-col justify-center justify-items-center content-start">
+<img class="svg_y absolute  right-0  w-52 lg:w-72"src="{{ asset('images/yellow.svg') }}"  
+  alt="yellow" />
+<img class="z-2 absolute right-11  w-52 lg:w-72" src="{{ asset('images/hand_1.svg')}}" >
+</aside>
+
+</div>
+
+
+
+<!-- block container -->
+<div class="flex flex-col  w-full h-auto    justify-items-center ">
+
+
+   <!-- salla start -->
+    <div class="salla relative w-full h-auto flex flex-col "> 
+        <img class=" justify-end float-right right-0 mb-8 z-3  h-21 w-22 m-5 p-3" src="{{ asset('images/s_salla.svg')}}">
+    <img class="  flex   lg:flex-row  md:flex-col  sm:flex-col 	 justify-center justify-items-center content-start items-center object-fill	 h-auto w-full" src="{{ asset('images/bg_all.svg')}}" >
+    <img class=" z-2 absolute  top-1/4 pt-2 left-0  object-fill 	 h-auto sm:w-screen md:w-screen lg:w-1/3  content-center items-center justify-center" src="{{ asset('images/blok_black.svg')}}">
+    <div class="z-10 text-white absolute  top-1/3 mt-2 ml-3 pl-3 left-11  object-fill 	 h-auto w-1/4 content-center items-center justify-center   #bg-blue-400 text-white text-3xl text-center leading-4">مجاناً
+      
+        <div class="text-18 flex flex-col text-center  text-white  w-full h-3/7 ">
+      <ul class=" w-full h-full max-h-84  mt-1 p-3 py-8  text-xl text-right list-disc  overflow-hidden flex-col text-center "> 
+   <li> مساعدة في اختيار الباقة المناسبة -</li>
+   <br/> 
+    <li> مساعدة في فتح الحساب -</li>
+      <br/>
+      <li>   مساعدة في اختيار اسم النطاق المناسب -</li>
+      <br/>
+      <li>  تسعير تكلفة المتجر الاكتروني - </li>
+    </ul>
+  <a  href="https://:wa.me/966543201512" target="_blank" class=" bg-transparent hover:bg-blue-500 text-xl text-white font-semibold hover:text-white py-4 px-3 absolute bottom-0 ml-24 -mb-14 mx-16 cursor-pointer border border-blue-500 hover:border-transparent rounded">اطلب الاستشارة</a>
+  </div>
+     
+</div>
+<!-- <img class=" z-2 absolute  top-1/4 left-0   object-fill 	 h-auto w-1/3 #sm:w-screen  lg:w-screen" src="{{ asset('images/blok_black.svg')}}"> -->
+      <div class="  z-10 text-black absolute text-4xl  top-1/3 left-1/3 mt-2 ml-6 pl-3 left-11  object-fill 	 h-auto w-1/4 content-center items-center justify-center   #bg-blue-400 text-white  text-center leading-4">  
+      <img class=" z-5 absolute  right-0  object-fill 	 h-auto w-12" src="{{ asset('images/jowlery_red.svg')}}">
+      باقة برو 
+      <div class="absolute ml-6 left-1/5 text-18 #bg-green-800 flex flex-col text-center  text-black  w-full h-3/7 ">
+      <ul class="  w-full h-64 #sm:max-h-20 max-h-66 mt-1 p-3 py-8  text-xl text-right list-disc overflow-y-scroll "> 
+   <li> تعديل واجهةالمتجر css-</li>
+   <br/> 
+    <li> تصميم بانر العلوي الرئيسي 🖼️-</li>
+      <br/>
+      <li>   اظافة الاقسام وترتيبها-</li>
+      <br/>
+      <li> وتنسيق المتجر : صور متحركة - </li>
+      <br/>
+      <li> إضافة صفحات التعريفية ( سياسة شحن - سياسة الخصوصية)- </li>
+      <br/>
+      <li> تفعيل بوابة دفع - </li>
+      <br/>
+      <li> تفعيل شركة شحن -اضافة مستودع - </li>
+      <br/>
+      <li> توثيق المتجر  - </li>
+      <br/>
+      <li> اضافة ازرار تواصل الاجتماعي - </li>
+
+    </ul>
+  <a  href="https://:wa.me/966543201512" target="_blank" class=" bg-yellow-500 hover:bg-blue-500 text-xl text-white font-semibold hover:text-white py-4 mr-0 px-3  bottom-0 #ml-29 -mb-14 #mx-16 cursor-pointer border border-blue-500 hover:border-transparent rounded">اطلب الباقة</a>
+  </div></div>
+    <img class=" z-2 absolute  top-1/4 left-1/3 object-fill	 h-auto sm:w-screen md:w-screen lg:w-1/3 content-center" src="{{ asset('images/blok_fff.svg')}}">
+    
+    <img class=" z-2  absolute  top-1/4 right-0 object-fill	 h-auto sm:w-screen md:w-screen lg:w-1/3 content-center" src="{{ asset('images/blok_fff.svg')}}">
+    <div class="  z-10 text-black absolute  top-1/3 left-2/3 mt-2 ml-6 pl-3 left-11  object-fill 	 h-auto w-1/4 content-center items-center justify-center   #bg-blue-400 text-white text-3xl text-center leading-4">  
+      <img class=" z-5 absolute  right-0  object-fill 	 h-auto w-12" src="{{ asset('images/jowlery_blue.svg')}}">
+   
+      <i class="text-s">750</i>   باقة بلس
+      <div class="absolute ml-6 left-1/5 text-18 #bg-green-800 flex flex-col text-center  text-black  w-full h-3/7 ">
+      <ul class="  w-full h-64 max-h-66 mt-1 p-3 py-8  text-xl text-right list-disc overflow-y-scroll "> 
+
+    <li> تصميم بانر العلوي الرئيسي 🖼️-</li>
+      <br/>
+      <li>   اظافة الاقسام وترتيبها-</li>
+      <br/>
+      <li> وتنسيق المتجر : صور متحركة - </li>
+      <br/>
+      <li> إضافة صفحات التعريفية ( سياسة شحن - سياسة الخصوصية)- </li>
+      <br/>
+      <li> تفعيل بوابة دفع - </li>
+      <br/>
+      <li> تفعيل شركة شحن -اضافة مستودع - </li>
+      <br/>
+      <li> توثيق المتجر  - </li>
+      <br/>
+      <li> اضافة ازرار تواصل الاجتماعي - </li>
+
+    </ul>
+  <a  href="https://:wa.me/966543201512" target="_blank" class=" bg-green-500 hover:bg-blue-500 text-xl text-white font-semibold hover:text-white py-4 mr-0 px-3  bottom-0 #ml-29 -mb-14 #mx-16 cursor-pointer border border-blue-500 hover:border-transparent rounded">اطلب الباقة</a>
+  </div>
+    </div>
+
+    </div>
+    <!-- zid start -->
+    <div class="zid relative w-full h-auto flex flex-col "> 
+        <img class=" justify-end float-right right-0 mb-8 z-3  h-21 w-25 m-5 p-3" src="{{ asset('images/s_zid.svg')}}">
+        <img class=" flex flex-row  justify-center justify-items-center content-start items-center object-fill	 h-auto w-full" src="{{ asset('images/bg_all.svg')}}" >
+        <div class="z-10 text-white absolute  top-1/3 mt-2 ml-3 pl-3 left-11  object-fill 	 h-auto w-1/4 content-center items-center justify-center   #bg-blue-400 text-white text-3xl text-center leading-4">مجاناً
+      
+        <div class="text-18 flex flex-col text-center  text-white  w-full h-3/7 ">
+      <ul class=" w-full h-full max-h-84  mt-1 p-3 py-8  text-xl text-right list-disc  overflow-hidden flex-col text-center "> 
+   <li> مساعدة في اختيار الباقة المناسبة -</li>
+   <br/> 
+    <li> مساعدة في فتح الحساب -</li>
+      <br/>
+      <li>   مساعدة في اختيار اسم النطاق المناسب -</li>
+      <br/>
+      <li>  تسعير تكلفة المتجر الاكتروني - </li>
+    </ul>
+  <a  href="https://:wa.me/966543201512" target="_blank" class=" bg-transparent hover:bg-blue-500 text-xl text-white font-semibold hover:text-white py-4 px-3 absolute bottom-0 ml-24 -mb-14 mx-16 cursor-pointer border border-blue-500 hover:border-transparent rounded">اطلب الاستشارة</a>
+  </div>
+     
+     
+</div>
+    <!-- <img class=" z-2 absolute  top-1/4 left-0  object-fill 	 h-auto w-1/3" src="{{ asset('images/block_purple.svg')}}"> -->
+    <img class=" z-2 absolute  top-1/4 left-0  object-fill 	 h-auto w-1/3" src="{{ asset('images/block_purple.svg')}}">
+      <div class="  z-10 text-black absolute  top-1/3 left-1/3 mt-2 ml-6 pl-3 left-11  object-fill 	 h-auto w-1/4 content-center items-center justify-center   #bg-blue-400 text-white text-3xl text-center leading-4">  
+      <img class=" z-5 absolute  right-0  object-fill 	 h-auto w-12" src="{{ asset('images/jowlery_red.svg')}}">
+      باقة برو
+      
+      <div class="absolute ml-6 left-1/5 text-18 #bg-green-800 flex flex-col text-center  text-black  w-full h-3/7 ">
+      <ul class="  w-full h-64 max-h-66 mt-1 p-3 py-8  text-xl text-right list-disc overflow-y-scroll "> 
+   <li> تعديل واجهةالمتجر css-</li>
+   <br/> 
+    <li> تصميم بانر العلوي الرئيسي 🖼️-</li>
+      <br/>
+      <li>   اظافة الاقسام وترتيبها-</li>
+      <br/>
+      <li> وتنسيق المتجر : صور متحركة - </li>
+      <br/>
+      <li> إضافة صفحات التعريفية ( سياسة شحن - سياسة الخصوصية)- </li>
+      <br/>
+      <li> تفعيل بوابة دفع - </li>
+      <br/>
+      <li> تفعيل شركة شحن -اضافة مستودع - </li>
+      <br/>
+      <li> توثيق المتجر  - </li>
+      <br/>
+      <li> اضافة ازرار تواصل الاجتماعي - </li>
+
+    </ul>
+  <a  href="https://:wa.me/966543201512" target="_blank" class=" bg-yellow-500 hover:bg-blue-500 text-xl text-white font-semibold hover:text-white py-4 mr-0 px-3  bottom-0 #ml-29 -mb-14 #mx-16 cursor-pointer border border-blue-500 hover:border-transparent rounded">اطلب الباقة</a>
+  </div></div>
+    <img class=" z-2 absolute  top-1/4 left-1/3 object-fill	 h-auto w-1/3" src="{{ asset('images/blok_fff.svg')}}">
+    <img class=" z-2  absolute  top-1/4 right-0 object-fill	 h-auto w-1/3" src="{{ asset('images/blok_fff.svg')}}">
+  
+    <div class="  z-10 text-black absolute  top-1/3 left-2/3 mt-2 ml-6 pl-3 left-11  object-fill 	 h-auto w-1/4 content-center items-center justify-center   #bg-blue-400 text-white text-3xl text-center leading-4">  
+      <img class=" z-5 absolute  right-0  object-fill 	 h-auto w-12" src="{{ asset('images/jowlery_blue.svg')}}">
+   
+      <i class="text-s">750</i>   باقة بلس
+      <div class="absolute ml-6 left-1/5 text-18 #bg-green-800 flex flex-col text-center  text-black  w-full h-3/7 ">
+      <ul class="  w-full h-64 max-h-66 mt-1 p-3 py-8  text-xl text-right list-disc overflow-y-scroll "> 
+
+    <li> تصميم بانر العلوي الرئيسي 🖼️-</li>
+      <br/>
+      <li>   اظافة الاقسام وترتيبها-</li>
+      <br/>
+      <li> وتنسيق المتجر : صور متحركة - </li>
+      <br/>
+      <li> إضافة صفحات التعريفية ( سياسة شحن - سياسة الخصوصية)- </li>
+      <br/>
+      <li> تفعيل بوابة دفع - </li>
+      <br/>
+      <li> تفعيل شركة شحن -اضافة مستودع - </li>
+      <br/>
+      <li> توثيق المتجر  - </li>
+      <br/>
+      <li> اضافة ازرار تواصل الاجتماعي - </li>
+
+    </ul>
+  <a  href="https://:wa.me/966543201512" target="_blank" class=" bg-green-500 hover:bg-blue-500 text-xl text-white font-semibold hover:text-white py-4 mr-0 px-3  bottom-0 #ml-29 -mb-14 #mx-16 cursor-pointer border border-blue-500 hover:border-transparent rounded">اطلب الباقة</a>
+  </div>
+    </div>
+    </div>
+<!-- Gelary -->
+    <div class="gallary relative w-full h-auto flex flex-col "> 
+        <img class=" justify-end float-right right-0 mb-8 z-3  h-21 w-22 m-5 p-3" src="{{ asset('images/s_g.svg')}}">
+        <img class=" flex flex-row  justify-center justify-items-center content-start items-center object-fill	 h-auto w-full" src="{{ asset('images/bg_all.svg')}}" >
+        <div class="z-10 text-white absolute  top-1/3 mt-2 ml-3 pl-3 left-11  object-fill 	 h-auto w-1/4 content-center items-center justify-center   #bg-blue-400 text-white text-3xl text-center leading-4">مجاناً
+      
+        <div class="text-18 flex flex-col text-center  text-white  w-full h-3/7 ">
+      <ul class=" w-full h-full max-h-84  mt-1 p-3 py-8  text-xl text-right list-disc  overflow-hidden flex-col text-center "> 
+   <li> مساعدة في اختيار الباقة المناسبة -</li>
+   <br/> 
+    <li> مساعدة في فتح الحساب -</li>
+      <br/>
+      <li>   مساعدة في اختيار اسم النطاق المناسب -</li>
+      <br/>
+      <li>  تسعير تكلفة المتجر الاكتروني - </li>
+    </ul>
+  <a  href="https://:wa.me/966543201512" target="_blank" class=" bg-transparent hover:bg-blue-500 text-xl text-white font-semibold hover:text-white py-4 px-3 absolute bottom-0 ml-24 -mb-14 mx-16 cursor-pointer border border-blue-500 hover:border-transparent rounded">اطلب الاستشارة</a>
+  </div>
+     
+   
+</div>
+    
+      <img class=" z-2 absolute  top-1/4 left-0  object-fill 	 h-auto w-1/3" src="{{ asset('images/blok_black.svg')}}">
+      <div class="  z-10 text-black absolute  top-1/3 left-1/3 mt-2 ml-6 pl-3 left-11  object-fill 	 h-auto w-1/4 content-center items-center justify-center   #bg-blue-400 text-white text-3xl text-center leading-4">  
+      <img class=" z-5 absolute  right-0  object-fill 	 h-auto w-12" src="{{ asset('images/jowlery_red.svg')}}">
+   
+      <i class="text-s">850</i>   باقة برو
+      <div class="absolute ml-6 left-1/5 text-18 #bg-green-800 flex flex-col text-center  text-black  w-full h-3/7 ">
+      <ul class="  w-full h-64 max-h-66 mt-1 p-3 py-8  text-xl text-right list-disc overflow-y-scroll "> 
+   <li> تعديل واجهةالمتجر css-</li>
+   <br/> 
+    <li> تصميم بانر العلوي الرئيسي 🖼️-</li>
+      <br/>
+      <li>   اظافة الاقسام وترتيبها-</li>
+      <br/>
+      <li> وتنسيق المتجر : صور متحركة - </li>
+      <br/>
+      <li> إضافة صفحات التعريفية ( سياسة شحن - سياسة الخصوصية)- </li>
+      <br/>
+      <li> تفعيل بوابة دفع - </li>
+      <br/>
+      <li> تفعيل شركة شحن -اضافة مستودع - </li>
+      <br/>
+      <li> توثيق المتجر  - </li>
+      <br/>
+      <li> اضافة ازرار تواصل الاجتماعي - </li>
+
+    </ul>
+  <a  href="https://:wa.me/966543201512" target="_blank" class=" bg-yellow-500 hover:bg-blue-500 text-xl text-white font-semibold hover:text-white py-4 mr-0 px-3  bottom-0 #ml-29 -mb-14 #mx-16 cursor-pointer border border-blue-500 hover:border-transparent rounded">اطلب الباقة</a>
+  </div></div>
+     
+    <img class=" z-2 absolute  top-1/4 left-1/3 object-fill	 h-auto w-1/3" src="{{ asset('images/blok_fff.svg')}}">
+    
+  <img class=" z-2  absolute  top-1/4 right-0 object-fill	 h-auto w-1/3" src="{{ asset('images/blok_fff.svg')}}">
+    
+  
+  <div class="  z-10 text-black absolute  top-1/3 left-2/3 mt-2 ml-6 pl-3 left-11  object-fill 	 h-auto w-1/4 content-center items-center justify-center   #bg-blue-400 text-white text-3xl text-center leading-4">  
+      <img class=" z-5 absolute  right-0  object-fill 	 h-auto w-12" src="{{ asset('images/jowlery_blue.svg')}}">
+   
+      <i class="text-s">750</i>   باقة بلس
+      <div class="absolute ml-6 left-1/5 text-18 #bg-green-800 flex flex-col text-center  text-black  w-full h-3/7 ">
+      <ul class="  w-full h-64 max-h-66 mt-1 p-3 py-8  text-xl text-right list-disc overflow-y-scroll "> 
+
+    <li> تصميم بانر العلوي الرئيسي 🖼️-</li>
+      <br/>
+      <li>   اظافة الاقسام وترتيبها-</li>
+      <br/>
+      <li> وتنسيق المتجر : صور متحركة - </li>
+      <br/>
+      <li> إضافة صفحات التعريفية ( سياسة شحن - سياسة الخصوصية)- </li>
+      <br/>
+      <li> تفعيل بوابة دفع - </li>
+      <br/>
+      <li> تفعيل شركة شحن -اضافة مستودع - </li>
+      <br/>
+      <li> توثيق المتجر  - </li>
+      <br/>
+      <li> اضافة ازرار تواصل الاجتماعي - </li>
+
+    </ul>
+  <a  href="https://:wa.me/966543201512" target="_blank" class=" bg-green-500 hover:bg-blue-500 text-xl text-white font-semibold hover:text-white py-4 mr-0 px-3  bottom-0 #ml-29 -mb-14 #mx-16 cursor-pointer border border-blue-500 hover:border-transparent rounded">اطلب الباقة</a>
+  </div>
+    </div>
+</div>
+<footer class="footer-1 bg-gray-100 py-8 sm:py-12">
+  <div class="container mx-auto px-4">
+    <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
+      <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
+        <h5 class="text-xl font-bold mb-6">الخدمات</h5>
+        <ul class="list-none footer-links">
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">التطبيقات</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">التصاميم</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">التسويق</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"></a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">الاسعار</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">الرئيسية</a>
+          </li>
+        </ul>
+      </div>
+      <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
+        <h5 class="text-xl font-bold mb-6">المصادر</h5>
+        <ul class="list-none footer-links">
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">اعمالنا</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">شركاء النجاح</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">التسويق بالعمولة</a>
+          </li>
+        </ul>
+      </div>
+      <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
+        <h5 class="text-xl font-bold mb-6">حول</h5>
+        <ul class="list-none footer-links">
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">الفريق</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">الموقع</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">الخصوصية</a>
+          </li>
+          <li class="mb-2">
+            <a href="{{route('service_policy')}}" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">سياسة الخدمات</a>
+          </li>
+        </ul>
+      </div>
+      <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
+        <h5 class="text-xl font-bold mb-6">المساعدة </h5>
+        <ul class="list-none footer-links">
+          <li class="mb-2">
+            <a href="https://wa.me/966543201512" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">الاسئلة الشائعة</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">المساعدة</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">تواصل معنا</a>
+          </li>
+        </ul>
+      </div>
+      <div class="px-4 mt-4 sm:w-1/3 xl:w-1/6 sm:mx-auto xl:mt-0 xl:ml-auto">
+        <h5 class="text-xl font-bold mb-6 sm:text-center xl:text-left">ابق على الاتصال</h5>
+        <div class="flex sm:justify-center xl:justify-start">
+          <a href="https://www.facebook.com/package.developer" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com/package_dev" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-blue-400 hover:border-blue-400">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/package.developer/" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-red-600 hover:border-red-600">
+          <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+ 
+  </div>
+</footer>
+<script src="{{ mix('js/dragble.js') }}" ></script>
+    @livewireScripts
+</body>
+</html>
