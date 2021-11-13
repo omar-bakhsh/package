@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arr_random_no_repeation = [];
+        var arr_random_rang = [];
+        var arr_fainal = [];
+
+        var div = 4;
+        var max = 28;
+
+        if (div % 2 != 0) {
+            alert("sorry");
+        } else {
+            for (i = 0; i <= max; i++) {
+                arr_random_rang[i] = i;
+            }
+
+            for (let i = 0; i < max; i++) {
+                rm();
+            }
+        }
+
+        function rm() {
+            maxnum_ini = Math.floor(Math.random() * max);
+
+            if (arr_random_rang.includes(maxnum_ini)) {
+                arr_random_rang.splice(
+                    arr_random_rang.indexOf(maxnum_ini),
+                    1
+                );
+                arr_random_no_repeation.push(maxnum_ini);
+            } else {
+                if (arr_random_rang.length != 0) {
+                    rm();
+                }
+            }
+        }
+
+        dd = [];
+        for (let i = 0; i < div; i++) {
+            dd.push(arr_random_no_repeation.splice(0, max / div));
+        }
+        console.log(dd);
+    </script>
+</body>
+
+</html>

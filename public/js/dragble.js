@@ -4,10 +4,7 @@ var __webpack_exports__ = {};
   !*** ./resources/js/dragble.js ***!
   \*********************************/
 // right click desible
-document.addEventListener("contextmenu", function (event) {
-  return event.preventDefault();
-});
-
+// document.addEventListener("contextmenu", (event) => event.preventDefault());
 document.onkeydown = function (e) {// disable F12 key
   // if(e.keyCode == 123)
   //     return false;

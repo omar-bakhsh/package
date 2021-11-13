@@ -46,7 +46,7 @@
 </header>
 <section class="flex flex-row ml-50  h-40 md:h-30 w-full md:w-full right-0   #bg-blue-400 justify-end md:justify-end justify-items-end content-end ">
    <div class="continer_first z-1 relative flex flex-col justify-items-center content-center p-4 #bg-green-700 mr-8">
-<p class="text-yellow-500 text-3xl">كل مايحتاجه التاجر الالكتروني</p><p class=" text-2xl font-bold absolute right-0 bottom-0 m-5">خطوة بخطوة</p>
+<p class="text-yellow-500 text-3xl">كل مايحتاجه التاجر الالكتروني</p><p class=" text-2xl font-bold absolute right-0 bottom-0 sm:m-1 lg:m-5">خطوة بخطوة</p>
 </div>
 </section>
 <div class="anmition_container w-full h-screen #bg-blue-800 flex " >

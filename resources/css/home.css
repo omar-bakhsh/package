@@ -1,22 +1,19 @@
-body {}
-
-#mydiv {
-    position: fixed;
-    z-index: 15;
-    background-color: #f1f1f1;
-    text-align: center;
-    border: 1px solid #d3d3d3;
+@font-face {
+    font-family: tajawal;
+    src: url("/fonts/Tajawal/Tajawal-Light.tff");
 }
 
-#mydivheader {
-    padding: 10px;
-    cursor: move;
-    z-index: 10;
-    background-color: #2196f3;
-    color: #fff;
+.font_Cairo {
+    font-family: "Cairo", sans-serif;
 }
 
-.bg_all {}
+.font_tajawal {
+    font-family: Tajawal-Light;
+}
+
+.txt-color-purple {
+    color: #8762f4;
+}
 
 .path-3 {
     -webkit-animation: waveAnimateC 7s ease-in-out infinite alternate;
@@ -54,5 +51,78 @@ article li {
     }
     50% {
         bottom: 15px;
+    }
+}
+
+.span {
+    font-size: 2.5rem;
+    color: orange;
+    letter-spacing: 8px;
+    cursor: pointer;
+    display: block;
+}
+
+.droped_package {
+    display: none;
+}
+
+.anmition_container:hover .droped_package,
+.span:hover {
+    display: block;
+    transition: 0s;
+    transition-duration: 2s;
+    color: blue !important;
+    font-family: cursive;
+    /* animation: drop 1.2s forwards; */
+}
+
+@media screen and (max-width: 480px) {
+    .image-animation-list {
+        animation: slide infinite 5s alternate;
+    }
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    50% {
+        margin-left: -50%;
+    }
+    70% {
+        margin-left: -80%;
+    }
+    100% {
+        margin-left: -160%;
+    }
+}
+
+@keyframes drop {
+    0% {
+        color: red;
+    }
+    25% {
+        color: yellow;
+        left: 0px;
+        top: 10px;
+        font-size: 2.5rem;
+    }
+    50% {
+        color: blue;
+        left: 0px;
+        top: 100px;
+        font-size: 3rem;
+    }
+    75% {
+        color: green;
+        left: 0px;
+        top: 120px;
+        font-size: 4rem;
+    }
+    100% {
+        color: red;
+        left: 0px;
+        top: 140px;
+        font-size: 5rem;
     }
 }

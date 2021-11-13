@@ -1,5 +1,5 @@
 // right click desible
-document.addEventListener("contextmenu", (event) => event.preventDefault());
+// document.addEventListener("contextmenu", (event) => event.preventDefault());
 document.onkeydown = function(e) {
     // disable F12 key
     // if(e.keyCode == 123)
