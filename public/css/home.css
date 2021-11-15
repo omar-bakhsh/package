@@ -15,6 +15,15 @@
     color: #8762f4;
 }
 
+.bg-purple {
+    background-color: #7f5ede;
+}
+
+header,
+.header_conatiner {
+    background-color: #f8f8f8;
+}
+
 .path-3 {
     -webkit-animation: waveAnimateC 7s ease-in-out infinite alternate;
     animation: waveAnimateC 7s ease-in-out infinite alternate;

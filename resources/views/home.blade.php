@@ -30,12 +30,12 @@
 </head>
 
 <body class="r-0 mr-0 p-0  select-none  ">
-  <header class="h-50  py-5  max-w-full ">
+  <header class="relative h-50  py-5  max-w-full ">
 
-    <div class="w-full text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800">
-      <div x-data="{ open: false }" class="flex  flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
-        <div class="p-4 flex flex-row items-center justify-between">
-          <a href="#" class="text-sm font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline text-yellow-500"> <img src="{{ asset('images/logo-l.svg') }}" class="w-11 h-auto left-0 m-0 t-0   p-0 " /> بكج للبرمجيات</a>
+    <div class="w-full header_conatiner text-gray-700  dark-mode:text-gray-200 dark-mode:bg-gray-800">
+      <div x-data="{ open: false }" class="flex  flex-row w-2/3  max-w-screen-xl px-1 mx-auto items-center md:items-center md:center md:flex-row md:px-6 lg:px-2">
+        <div class="p-4 flex flex-row items-center justify-center">
+       
           <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
             <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
               <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
@@ -44,10 +44,13 @@
           </button>
         </div>
         <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
-          <a class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="{{route('development')}}">التطبيقات</a>
-          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">التسويق</a>
-          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">التصاميم</a>
-          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg bg-gray-300  dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">الرئيسية</a>
+          
+        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">التسعيرات</a>
+        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">دروب شوبينج</a>
+        <a class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="{{route('development')}}">التسويق</a>
+          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">التصميم</a>
+          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">البرمجة</a>
+          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg bg-purple  dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline text-white" href="#">انشئ المتجر</a>
           <div @click.away="open = false" class="relative" x-data="{ open: false }">
             <button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
               <span>المساعدة</span>
@@ -55,6 +58,7 @@
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
               </svg>
             </button>
+            
             <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute z-10 right-0  w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
               <div class="px-2 py-2 z-2 bg-white rounded-md shadow dark-mode:bg-gray-800">
                 <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">الاسئلة الشائعة</a>
@@ -62,15 +66,38 @@
                 <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">سياسة الخدمات</a>
               </div>
             </div>
+            
           </div>
         </nav>
       </div>
     </div>
+    <a href="#" class=" absolute inset-y-0 right-10 p-3  text-sm font-semibold tracking-widest  uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline text-yellow-500"> <img src="{{ asset('images/logo-s.png') }}" class="w-18 h-auto left-0 m-0 t-0   p-0 " /></a>
+     
   </header>
-  <div class="container-logo-lg w-full h-400 items-center flex flex-col ">
-    <img src="{{ asset('images/logo-l.png') }}" class="w-full h-80 left-0 m-0 t-0   px-8 " />
+  <section class="flex flex-col #items-center  w-full    ">
+    <div class="flex flex-row  w-full">
+  <div class="flex flex-col h-1/2 mt-17 w-3/4 py-10 bg-green-400 text-right  ">
+  <p class="txt-color-purple text-2xl px-3 text-right font_tajawal ">نحن</p>
+    <p class="txt-color-purple text-2xl font_tajawal px-2 ">
+      مؤسسة بكج نقدم لكم خدمات رائدة
+      <br>
+      في مجال تجارة الالكترونية
+      <br>
+      بفريق مكون من مصممين ومبرمجين
+      <br>
+      وخبراء في التجارة الالكترونية السعودية
+    </p>
   </div>
-  <div class="container-txt-who w-full h-250 items-center text-center flex flex-col p-3 ">
+   <div class="flex flex-col  w-1/2 mt-5 place-items-start items-start   ">
+    <img src="{{ asset('images/box_pkg.svg') }}" class="w-3/4 h-65  left-0 m-0 t-0 " />
+  </div>
+  </div>
+ <div class="bg-pink-300 w-full  h-80 flex flex-row   mb-10 text-center justify-items-center justify-center items-start align-middle  "><div class=" py-5 px-10 cursor-pointer text-white text-center text-2xl  mt-0 h-20 rounded-md bg-purple">انشئ متجرك</div></div>
+  </section>
+  
+  
+  
+  <!-- <div class="container-txt-who w-full h-250 items-center text-center flex flex-col p-3 ">
     <p class="txt-color-purple text-2xl font_tajawal ">نحن</p>
     <p class="txt-color-purple text-2xl font_tajawal px-9 ">
       مؤسسة بكج نقدم لكم خدمات رائدة
@@ -78,7 +105,7 @@
       بفريق مكون من مصممين ومبرمجين
       وخبراء في التجارة الالكترونية السعودية
     </p>
-  </div>
+  </div> -->
 
 
 
