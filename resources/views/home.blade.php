@@ -75,10 +75,11 @@
      
   </header>
   <section class="flex flex-col #items-center  w-full    ">
-    <div class="flex flex-row  w-full">
-  <div class="flex flex-col h-1/2 mt-17 w-3/4 py-10 bg-green-400 text-right  ">
-  <p class="txt-color-purple text-2xl px-3 text-right font_tajawal ">نحن</p>
-    <p class="txt-color-purple text-2xl font_tajawal px-2 ">
+    <div class="flex flex-row items-center w-full">
+  <div class="flex flex-col h-1/2  mt- w-3/4 py-10 mr-10 text-right  #bg-pink-300 ">
+    <!-- info -->
+  <p class="txt-color-purple text-5xl px-3 text-right font_tajawal ">نحن</p>
+    <p class="txt-color-purple text-4xl font_tajawal px-2 ">
       مؤسسة بكج نقدم لكم خدمات رائدة
       <br>
       في مجال تجارة الالكترونية
@@ -88,45 +89,16 @@
       وخبراء في التجارة الالكترونية السعودية
     </p>
   </div>
+  <!-- img box -->
    <div class="flex flex-col  w-1/2 mt-5 place-items-start items-start   ">
     <img src="{{ asset('images/box_pkg.png') }}" class="w-3/4 h-65  left-0 m-0 t-0 " />
   </div>
   </div>
- <div class="bg-pink-300 w-full  h-80 flex flex-row   mb-10 text-center justify-items-center justify-center items-start align-middle  "><div class=" py-5 px-10 cursor-pointer text-white text-center text-2xl  mt-0 h-20 rounded-md bg-purple">انشئ متجرك</div></div>
+  <!-- button action  -->
+ <div class="#bg-pink-300 w-full  h-40 flex flex-row   -mt-10 text-center justify-items-center justify-center items-start align-middle  ">
+   <div class=" py-5 px-12 cursor-pointer text-white text-center text-3xl  mt-0 h-20 rounded-xl bg-purple">انشئ متجرك</div></div>
   </section>
   
-  
-  
-  <!-- <div class="container-txt-who w-full h-250 items-center text-center flex flex-col p-3 ">
-    <p class="txt-color-purple text-2xl font_tajawal ">نحن</p>
-    <p class="txt-color-purple text-2xl font_tajawal px-9 ">
-      مؤسسة بكج نقدم لكم خدمات رائدة
-      في مجال تجارة الالكترونية
-      بفريق مكون من مصممين ومبرمجين
-      وخبراء في التجارة الالكترونية السعودية
-    </p>
-  </div> -->
-
-
-<!-- 
-[html] (
-  [body](
-   [livwire] parent switch(
-      loading {
-         if is $device == 'mobile' 
-        [livewire] mobile (
-  
-        )
-        if is $device == 'desktop'
-          [livewire] desktop (
-
-          )
-         js tag have function call livwire method set $device  'mobile' or 'desktop' 
-      }    
-   )
-  )
-)
--->
 
 
 
@@ -229,3 +201,37 @@
 </body>
 
 </html>
+
+
+  
+  
+  <!-- <div class="container-txt-who w-full h-250 items-center text-center flex flex-col p-3 ">
+    <p class="txt-color-purple text-2xl font_tajawal ">نحن</p>
+    <p class="txt-color-purple text-2xl font_tajawal px-9 ">
+      مؤسسة بكج نقدم لكم خدمات رائدة
+      في مجال تجارة الالكترونية
+      بفريق مكون من مصممين ومبرمجين
+      وخبراء في التجارة الالكترونية السعودية
+    </p>
+  </div> -->
+
+
+<!-- 
+[html] (
+  [body](
+   [livwire] parent switch(
+      loading {
+         if is $device == 'mobile' 
+        [livewire] mobile (
+  
+        )
+        if is $device == 'desktop'
+          [livewire] desktop (
+
+          )
+         js tag have function call livwire method set $device  'mobile' or 'desktop' 
+      }    
+   )
+  )
+)
+-->
