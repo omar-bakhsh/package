@@ -24,6 +24,11 @@ header,
     background-color: #f8f8f8;
 }
 
+.img_box {
+    width: 339px;
+    height: 363px;
+}
+
 .path-3 {
     -webkit-animation: waveAnimateC 7s ease-in-out infinite alternate;
     animation: waveAnimateC 7s ease-in-out infinite alternate;
