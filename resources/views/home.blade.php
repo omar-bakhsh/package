@@ -89,7 +89,7 @@
     </p>
   </div>
    <div class="flex flex-col  w-1/2 mt-5 place-items-start items-start   ">
-    <img src="{{ asset('images/box_pkg.svg') }}" class="w-3/4 h-65  left-0 m-0 t-0 " />
+    <img src="{{ asset('images/box_pkg.png') }}" class="w-3/4 h-65  left-0 m-0 t-0 " />
   </div>
   </div>
  <div class="bg-pink-300 w-full  h-80 flex flex-row   mb-10 text-center justify-items-center justify-center items-start align-middle  "><div class=" py-5 px-10 cursor-pointer text-white text-center text-2xl  mt-0 h-20 rounded-md bg-purple">انشئ متجرك</div></div>
@@ -108,8 +108,25 @@
   </div> -->
 
 
+<!-- 
+[html] (
+  [body](
+   [livwire] parent switch(
+      loading {
+         if is $device == 'mobile' 
+        [livewire] mobile (
+  
+        )
+        if is $device == 'desktop'
+          [livewire] desktop (
 
-
+          )
+         js tag have function call livwire method set $device  'mobile' or 'desktop' 
+      }    
+   )
+  )
+)
+-->
 
 
 
