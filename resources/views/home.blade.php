@@ -78,8 +78,8 @@
     <div class="flex flex-row items-center w-full">
   <div class="flex flex-col h-1/2  mt- w-3/4 py-10 mr-10 text-right  #bg-pink-300 ">
     <!-- info -->
-  <p class="txt-color-purple text-4xl px-3 text-right font_tajawal ">نحن</p>
-    <p class="txt-color-purple text-3xl font_tajawal px-2 ">
+  <span class="txt-color-purple text-4xl px-3 text-right font_tajawal font-normal ">نحن</span>
+    <p class="txt-color-purple text-3xl font_tajawal px-2 font-light">
       مؤسسة بكج نقدم لكم خدمات رائدة
       <br>
       في مجال تجارة الالكترونية
@@ -96,7 +96,7 @@
   </div>
   <!-- button action  -->
  <div class="#bg-pink-300 w-full  h-40 flex flex-row   -mt-10 text-center justify-items-center justify-center items-start align-middle  ">
-   <div class=" py-5 px-12 cursor-pointer text-white text-center text-3xl  mt-0 h-20 rounded-xl bg-purple">انشئ متجرك</div></div>
+   <div class=" py-4 px-10 cursor-pointer text-white text-center text-3xl  mt-0 h-20 rounded-xl bg-purple">انشئ متجرك</div></div>
   </section>
   
 

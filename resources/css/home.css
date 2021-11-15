@@ -1,14 +1,15 @@
-@font-face {
+/* @font-face {
     font-family: tajawal-Light;
     src: url("/fonts/Tajawal/Tajawal-Light.tff");
-}
+} */
 
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
 .font_Cairo {
     font-family: "Cairo", sans-serif;
 }
 
 .font_tajawal {
-    font-family: Tajawal-Light;
+    font-family: "Tajawal", sans-serif;
 }
 
 .txt-color-purple {
@@ -25,8 +26,8 @@ header,
 }
 
 .img_box {
-    width: 339px;
-    height: 363px;
+    width: 434px;
+    height: auto;
 }
 
 .path-3 {
