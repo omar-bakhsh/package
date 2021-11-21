@@ -30,6 +30,11 @@ header,
     height: auto;
 }
 
+.bx {
+    border: 1px solid #8762f4;
+    box-sizing: border-box;
+}
+
 .path-3 {
     -webkit-animation: waveAnimateC 7s ease-in-out infinite alternate;
     animation: waveAnimateC 7s ease-in-out infinite alternate;
