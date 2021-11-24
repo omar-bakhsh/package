@@ -53,7 +53,7 @@
           <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="دروب شوبينج" href="#">دروب شوبينج</a>
           <a class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="التسويق" href="{{route('development')}}">التسويق</a>
           <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="التسويق" href="#">التصميم</a>
-          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="البرمجة"  href="#">البرمجة</a>
+          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="البرمجة" href="#">البرمجة</a>
           <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg bg-purple  dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline text-white" aria-label="انشئ المتجر" href="#">انشئ المتجر</a>
           <div @click.away="open = false" class="relative" x-data="{ open: false }">
             <button aria-label="menue open" @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
@@ -120,13 +120,14 @@
           <p class="px-3 mr-5 txt-color-purple">الباقات التي تقدمها منصة زد</p><img alt="video compaire between salla and zid" src="{{ asset('images/icon_video.svg') }}" />
         </div>
         <div class="text-center items-center w-1/2">
-         <p class="text-xs txt-color-purple ">الفرق  بين الباقتين هو ان متجرك بباقة نمو 
-         · استيراد وتحديث المنتجات بملف الاكسل
+          <p class="text-xs txt-color-purple ">الفرق بين الباقتين هو ان متجرك بباقة نمو
+            · استيراد وتحديث المنتجات بملف الاكسل
             <br>
-          و غيرها من المميزات مثل الربط مع الانظمة المحاسبية
+            و غيرها من المميزات مثل الربط مع الانظمة المحاسبية
             <br>
             · الربط مع مزودي خدمات التشغيل والتخزين
-  (بأسعار خاصة)</p>
+            (بأسعار خاصة)
+          </p>
         </div>
       </div>
       <div class="flex flex-col w-1/2 h-full border-2 items-center   p-2">
@@ -144,7 +145,7 @@
         </div>
         <!-- row -->
         <div class="w-1/2 h-500 flex flex-row #bg-red-400 items-center  justify-center mt-7 gap-4 p-2">
-          <p class="px-3 mr-5 txt-color-purple">الباقات التي تقدمها منصة سلة</p><img alt="video compaire between zid and salla"  src="{{ asset('images/icon_video.svg') }}" />
+          <p class="px-3 mr-5 txt-color-purple">الباقات التي تقدمها منصة سلة</p><img alt="video compaire between zid and salla" src="{{ asset('images/icon_video.svg') }}" />
         </div>
         <div class="text-center items-center w-1/2">
           <p class="text-xs txt-color-purple ">الفرق الجوهري بين الباقتين هو ان متجرك بباقة برو سيكون مميزا عن باقي متاجر سلة بفضل ميزة ال
@@ -158,8 +159,35 @@
       </div>
   </section>
 
+  <!-- شركاء النجاح -->
+  <section class="flex flex-col h-screen #bg-green-200 w-full #bg-yellow-600 items-center justify-center">
+    <div class="  text-center txt-color-purple text-6xl  font-black">
+      <p>شركاء النجاح</p>
+    </div>
+    <!-- row -->
+    <div class="flex flex-row  #bg-yellow-900 h-3/5 w-full items-center justify-center mt-6">
+      <ul class="flex  h-full w-3/4 #bg-yellow-600 text-center items-center p-3 gap-3 justify-center">
+        <li class="flex flex-col px-1 h-3/5  rounded-css-obj w-80  bg-gray-400 items-center gap-4  py-4">
+          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+        </li>
+        <li class="flex flex-col px-1 h-full w-80 rounded-css-obj  bg-gray-400 items-center gap-6  py-4"><img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+        </li>
+        <li class="flex flex-col px-1 h-full w-80 rounded-css-obj items-center gap-10  py-4"><img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+        </li>
+        <li class="flex flex-col py-4 h-full w-80  rounded-css-obj bg-gray-400 justify-items-center items-center gap-10">
+          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+        </li>
+      </ul>
+    </div>
 
-
+  </section>
 
 
 
@@ -177,7 +205,7 @@
               <a href="{{route('development')}}" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">التطبيقات</a>
             </li>
             <li class="mb-2 mx-1">
-              <a href="{{route('design')}}" aria-label="التصميم" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"   >التصاميم</a>
+              <a href="{{route('design')}}" aria-label="التصميم" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">التصاميم</a>
             </li>
             <li class="mb-2 mx-1">
               <a href="#" aria-label="التسويق" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">التسويق</a>
