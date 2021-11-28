@@ -167,22 +167,24 @@
     <!-- row -->
     <div class="flex flex-row  #bg-yellow-900 h-3/5 w-full items-center justify-center mt-6">
       <ul class="flex  h-full w-3/4 #bg-yellow-600 text-center items-center p-3 gap-3 justify-center">
-        <li class="flex flex-col px-1 h-3/5  rounded-css-obj w-80  bg-gray-400 items-center gap-4  py-4">
-          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
-          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+        <li class="flex flex-col px-1 h-3/5  rounded-css-obj w-1/3  bg-gray-400 items-center gap-4  py-6">
+          <img class="w-21 " alt="logo salla" src="{{ asset('images/mada.png') }}">
+          <img class="w-21 " alt="logo salla" src="{{ asset('images/godaddy.png') }}">
         </li>
-        <li class="flex flex-col px-1 h-full w-80 rounded-css-obj  bg-gray-400 items-center gap-6  py-4"><img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
-          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
-          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+        <li class="flex flex-col px-1 h-full w-1/3 rounded-css-obj  bg-gray-400 items-center gap-6  py-4">
+          <img class="w-21 " alt="logo salla" src="{{ asset('images/smsa.png') }}">
+          <img class="w-21 " alt="logo salla" src="{{ asset('images/dhl.png') }}">
+          <img class="w-21 " alt="logo salla" src="{{ asset('images/aramex.png') }}">
         </li>
-        <li class="flex flex-col px-1 h-full w-80 rounded-css-obj items-center gap-10  py-4"><img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
-          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
-          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+        <li class="flex flex-col px-1 h-full w-1/3 rounded-css-obj items-center gap-10  py-4">
+          <img class="w-21 " alt="logo salla" src="{{ asset('images/gllary.png') }}">
+          <img class="w-21 " alt="logo salla" src="{{ asset('images/mymtjar.png') }}">
+          <img class="w-21 " alt="logo salla" src="{{ asset('images/adobe.png') }}">
         </li>
-        <li class="flex flex-col py-4 h-full w-80  rounded-css-obj bg-gray-400 justify-items-center items-center gap-10">
-          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
-          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
-          <img class="w-20 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+        <li class="flex flex-col p-2 h-full w-1/3  rounded-css-obj bg-gray-400 justify-items-center items-center gap-10">
+          <img class="w-1/3 " alt="logo salla" src="{{ asset('images/salla-sm.png') }}">
+          <img class="w-1/2 " alt="logo salla" src="{{ asset('images/zid-sm.png') }}">
+          <img class="w-1/2 " alt="logo salla" src="{{ asset('images/m5azen.png') }}">
         </li>
       </ul>
     </div>
