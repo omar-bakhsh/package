@@ -1158,6 +1158,12 @@ select {
 .left-36 {
 	left: 9rem;
 }
+.left-7 {
+	left: 1.75rem;
+}
+.top-2 {
+	top: 0.5rem;
+}
 .z-0 {
 	z-index: 0;
 }
@@ -1169,6 +1175,9 @@ select {
 }
 .z-40 {
 	z-index: 40;
+}
+.z-20 {
+	z-index: 20;
 }
 .col-span-6 {
 	grid-column: span 6 / span 6;
@@ -1524,6 +1533,9 @@ select {
 .w-96 {
 	width: 24rem;
 }
+.w-52 {
+	width: 13rem;
+}
 .min-w-0 {
 	min-width: 0px;
 }
@@ -1798,6 +1810,10 @@ select {
 .border-purple-500 {
 	--tw-border-opacity: 1;
 	border-color: rgba(139, 92, 246, var(--tw-border-opacity));
+}
+.border-purple-700 {
+	--tw-border-opacity: 1;
+	border-color: rgba(109, 40, 217, var(--tw-border-opacity));
 }
 .bg-white {
 	--tw-bg-opacity: 1;
@@ -2266,6 +2282,14 @@ select {
 .text-purple-500 {
 	--tw-text-opacity: 1;
 	color: rgba(139, 92, 246, var(--tw-text-opacity));
+}
+.text-purple-400 {
+	--tw-text-opacity: 1;
+	color: rgba(167, 139, 250, var(--tw-text-opacity));
+}
+.text-purple-700 {
+	--tw-text-opacity: 1;
+	color: rgba(109, 40, 217, var(--tw-text-opacity));
 }
 .underline {
 	text-decoration: underline;

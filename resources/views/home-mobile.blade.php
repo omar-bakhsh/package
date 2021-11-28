@@ -66,7 +66,7 @@
                 </div>
                 <img src="{{ asset('images/salla-sm.png') }}" class="h-20" />
             </div>
-            <div class=" flex justify-center my-8 w-full">
+            <div class=" flex justify-center my-8 w-full font_Cairo">
                 <div
                     class=" bg-purple-500 text-3xl rounded-full mx-1 font-black flex justify-center items-center w-5/12 h-12 text-white">
                     برو
@@ -101,7 +101,7 @@
                 </div>
                 <img src="{{ asset('images/zid-sm.png') }}" class="h-20" />
             </div>
-            <div class=" flex justify-center my-8 w-full">
+            <div class=" flex justify-center my-8 w-full font_Cairo">
                 <div
                     class=" bg-purple-500 text-3xl rounded-full mx-1 font-black flex justify-center items-center w-5/12 h-12 text-white">
                     اساسية
@@ -191,7 +191,7 @@
                     </div>
                 </div>
                 <div class=" w-full p-2">
-                    <button class="text-center font-black bg-white rounded-full text-xl py-5 text-green-400 mt-8 w-full ">
+                    <button class="text-center font-black bg-white rounded-full text-xl py-5 text-green-400 mt-8 w-full font_Cairo">
                         أطلب الآن
                     </button>
                 </div>
@@ -263,17 +263,25 @@
                     </div>
                 </div>
                 <div class=" w-full p-2">
-                    <button class="text-center font-black bg-white rounded-full text-xl py-5 text-green-400 mt-8 w-full ">
+                    <button class="text-center font-black bg-white rounded-full text-xl py-5 text-green-400 mt-8 w-full font_Cairo">
                         أطلب الآن
                     </button>
                 </div>
             </div>
             <div class="flex flex-col items-center w-full ">
-                <h1 class="text-3xl text-purple-500 font-black mt-28 text-center mb-6">كاتالوج المؤسسة</h1>
-                <div class="">
-                    <img src="{{ asset('images/docf.png') }}" class=" w-8/12 absolute left-36 z-50" />
-                    <img src="{{ asset('images/doclogo.png') }}" class=" w-8/12 absolute left-2 z-40 />
+                <h1 class="text-3xl text-purple-500 font-black mt-28 text-center mb-6 font_Cairo">كاتالوج المؤسسة</h1>
+                <div class=" relative">
+                    <img src="{{ asset('images/docf.png') }}" class=" w-8/12 relative left-36 z-50" />
+                    <img src="{{ asset('images/doclogo.png') }}" class=" w-8/12 absolute left-2 z-40 top-0"/>
 
+                </div>
+                <div class=" relative w-60 mt-14">
+                    <button class=" absolute z-20 bg-white border-2 border-purple-500 w-52 h-12 font_Cairo font-black left-7 rounded-lg text-purple-700">
+                        تحميل
+                    </button>
+                    <div class=" absolute z-10 bg-white border-2 border-purple-500 w-52 h-12 left-5 top-2 rounded-lg">
+
+                    </div>
                 </div>
 
             </div>
