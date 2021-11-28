@@ -35,6 +35,11 @@ header,
     box-sizing: border-box;
 }
 
+.rounded-css-obj {
+    background: #f9f9f9;
+    border-radius: 55px;
+}
+
 .path-3 {
     -webkit-animation: waveAnimateC 7s ease-in-out infinite alternate;
     animation: waveAnimateC 7s ease-in-out infinite alternate;
