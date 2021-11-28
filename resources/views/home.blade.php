@@ -105,7 +105,7 @@
   </section>
   <section class="  w-full h-screen ">
     <div class="flex flex-row w-full h-auto mt-8">
-      <div class="flex flex-col w-1/2 h-full border-2 items-center   p-2">
+      <div class="flex flex-col w-1/2 h-full #border-2 items-center   p-2">
         <p class="txt-color-purple text-4xl #font_Cairo px-2 font-black">انشئ متجرك على زد </p>
         <div class="flex flex-row w-full mt-8  items-end text-center justify-items-center justify-center   #bg-yellow-600 ">
           <p class="px-3 mr-5 txt-color-purple">الباقات التي تقدمها منصة زد</p><img alt="logo zid" src="{{ asset('images/zid-sm.png') }}" />
@@ -130,7 +130,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-col w-1/2 h-full border-2 items-center   p-2">
+      <div class="flex flex-col w-1/2 h-full #border-2 items-center   p-2">
         <p class="txt-color-purple text-4xl #font_Cairo px-2 font-black">انشئ متجرك على سلة </p>
         <!-- row -->
         <div class="flex flex-row w-full mt-8 items-end text-center justify-items-center justify-center   #bg-yellow-600 ">
@@ -156,8 +156,20 @@
             و إمكانية الربط مع الخدمات المحاسبية و غيرها من المميزات
           </p>
         </div>
+        <!-- row switch -->
+        <div class="flex flex-row w-1/2 bg-green-50 rounded-3xl mt-20 items-center justify-evenly">
+          <div class=" w-40 h-10 px-2 mr-18 text-center border-purple-500  border-2 cursor-pointer  rounded-3xl text-3xl txt-color-purple">زد</div>
+          <div class=" w-40 h-10 px-2 mr-18 text-center  border-2 border-green-400 cursor-pointer  text-green-500    rounded-3xl text-3xl font-black">سلة</div>
+        </div>
       </div>
+
   </section>
+
+
+  <section>
+
+  </section>
+
 
   <!-- شركاء النجاح -->
   <section class="flex flex-col h-screen #bg-green-200 w-full #bg-yellow-600 items-center justify-center">
@@ -188,7 +200,6 @@
         </li>
       </ul>
     </div>
-
   </section>
 
 
