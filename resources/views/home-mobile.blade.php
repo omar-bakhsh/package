@@ -142,51 +142,51 @@
                     <div class="flex flex-col items-end w-92">
                         <div class="flex justify-center mt-2">
                             <h1 class=" bg-black bg-opacity-10 rounded-full px-2">تصميم بنر رئيسي</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-6 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الشحن</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الشحن</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الدفع الاكتروني</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
-                        </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">تصميم بنر رئيسي</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-6 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
-                        </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">تصميم واجهة المتجر برمجيا باستخدام كود الـ<span> css</span></h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
-                        </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الدفع الاكتروني</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الدفع الاكتروني</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
                         <div class="flex justify-center mt-2">
                             <h1 class=" bg-black bg-opacity-10 rounded-full px-2">تصميم بنر رئيسي</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-6 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الشحن</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">تصميم واجهة المتجر برمجيا باستخدام كود الـ<span> css</span></h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الدفع الاكتروني</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الدفع الاكتروني</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
                         <div class="flex justify-center mt-2">
                             <h1 class=" bg-black bg-opacity-10 rounded-full px-2">تصميم بنر رئيسي</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-6 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        </div>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الشحن</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        </div>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الدفع الاكتروني</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
                         <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الشحن</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">تصميم بنر رئيسي</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الدفع الاكتروني</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الشحن</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        </div>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الدفع الاكتروني</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
                     </div>
                 </div>
@@ -210,55 +210,55 @@
                     </div>
                     
                 </div>
-                <div class=" flex flex-col items-center w-full text-white mt-10">
-                    <div class="flex flex-col items-end w-92">
+                <div class=" flex flex-col items-center w-full text-white mt-10 text-right">
+                    <div class="flex flex-col items-end  px-4">
                         <div class="flex justify-center mt-2">
                             <h1 class=" bg-black bg-opacity-10 rounded-full px-2">تصميم بنر رئيسي</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-6 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الشحن</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الشحن</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الدفع الاكتروني</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
-                        </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">تصميم بنر رئيسي</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-6 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
-                        </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">تصميم واجهة المتجر برمجيا باستخدام كود الـ<span> css</span></h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
-                        </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الدفع الاكتروني</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الدفع الاكتروني</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
                         <div class="flex justify-center mt-2">
                             <h1 class=" bg-black bg-opacity-10 rounded-full px-2">تصميم بنر رئيسي</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-6 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الشحن</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">تصميم واجهة المتجر برمجيا باستخدام كود الـ<span> css</span></h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الدفع الاكتروني</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الدفع الاكتروني</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
                         <div class="flex justify-center mt-2">
                             <h1 class=" bg-black bg-opacity-10 rounded-full px-2">تصميم بنر رئيسي</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-6 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        </div>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الشحن</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        </div>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الدفع الاكتروني</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
                         <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الشحن</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">تصميم بنر رئيسي</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
-                        <div class="flex justify-center mt-2">
-                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2">ربط خدمات الدفع الاكتروني</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-7 w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الشحن</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
+                        </div>
+                        <div class="flex justify-end mt-2">
+                            <h1 class=" bg-black bg-opacity-10 rounded-full px-2 flex">ربط خدمات الدفع الاكتروني</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon ml-2 flex-shrink-0  w-7" viewBox="0 0 512 512" fill="#fff"><title>Checkmark Circle</title><path  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"/></svg>
                         </div>
                     </div>
                 </div>

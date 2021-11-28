@@ -1521,6 +1521,9 @@ select {
 .w-9\/12 {
 	width: 75%;
 }
+.w-96 {
+	width: 24rem;
+}
 .min-w-0 {
 	min-width: 0px;
 }
@@ -2068,6 +2071,9 @@ select {
 }
 .pr-6 {
 	padding-right: 1.5rem;
+}
+.pr-2 {
+	padding-right: 0.5rem;
 }
 .text-left {
 	text-align: left;
