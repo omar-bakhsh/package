@@ -169,8 +169,22 @@
   <section>
 
   </section>
+  <!-- تسعيرات row  -->
+  <section class="flex flex-row  #bg-yellow-900 h-screen w-full items-center space-x-20 justify-center mt-1">
+    <article class="w-1/3 h-3/4 bg-green-500 rounded-3xl ">
+      <div class="flex flex-row relative #bg-yellow-900 w-full h-1/6 ">
+        <p class=" absolute left-1/3  top-5  text-center  font-light  font_Cairo text-5xl   text-white "><i class="text-sm p-3 float-left">ريال</i> 850 </p>
+        <span class=" absolute w-20  h-10  text-center m-5 font-bold font_Cairo rounded-xl text-3xl  bg-white text-green-500 right-0">برو</span>
+      </div>
 
-
+    </article>
+    <article class="w-1/3 h-3/4  bg-purple rounded-xl">
+      <div class="flex flex-row relative #bg-yellow-900 w-full h-1/6 ">
+        <p class=" absolute left-1/3  top-5  text-center  font-light  font_Cairo text-5xl   text-white "><i class="text-sm p-3 float-left">ريال</i> 721 </p>
+        <span class=" absolute w-20  h-10  text-center m-5 font-bold font_Cairo rounded-xl text-3xl  bg-white text-green-500 right-0">بلس</span>
+      </div>
+    </article>
+  </section>
   <!-- شركاء النجاح -->
   <section class="flex flex-col h-screen #bg-green-200 w-full #bg-yellow-600 items-center justify-center">
     <div class="  text-center txt-color-purple text-6xl  font-black">
