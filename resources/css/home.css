@@ -3,8 +3,14 @@
     src: url("/fonts/Tajawal/Tajawal-Light.tff");
 } */
 
-@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");/*font-family: 'Tajawal', sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');/*font-family: 'Cairo', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+/*font-family: 'Tajawal', sans-serif;*/
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+/*font-family: 'Cairo', sans-serif;*/
+
 .font_Cairo {
     font-family: "Cairo", sans-serif;
 }
@@ -19,6 +25,30 @@
 
 .bg-purple {
     background-color: #7f5ede;
+}
+
+.border-bg-purple {
+    border: solid 4px #7f5ede;
+}
+
+.bg-green {
+    background-color: #5cd5c4;
+}
+
+.txt-color-green {
+    color: #5cd5c4;
+}
+
+.border-bg-green {
+    border: solid 4px #5cd5c4;
+}
+
+.rtl-grid {
+    direction: rtl;
+}
+
+.li-opacity {
+    background: rgba(0, 0, 0, 0.09);
 }
 
 header,
@@ -65,7 +95,7 @@ article li {
 
 .up_icon {
     animation: MoveUpDown 1s linear infinite;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
 }

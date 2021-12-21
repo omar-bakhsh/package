@@ -16,9 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 })->name('home');
-
+// pages
 Route::view('/service_policy', 'service_policy')->name('service_policy');;
 Route::view('/team', 'team')->name('team');;
+Route::view('/drop_shoping', 'drop_shoping')->name('drop_shoping');;
 //development
 Route::view('/development', 'development')->name('development');;
 // design 

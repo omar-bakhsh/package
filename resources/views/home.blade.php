@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html dir="ltr" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
   <meta charset="utf-8">
@@ -50,7 +50,8 @@
         <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
 
           <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="التسعيرات" href="#">التسعيرات</a>
-          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="دروب شوبينج" href="#">دروب شوبينج</a>
+          <!--   <a href="{{route('service_policy')}}" aria-label="سياسة الخدمات" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">سياسة الخدمات</a> -->
+          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="دروب شوبينج" href="{{route('drop_shoping')}}">دروب شوبينج</a>
           <a class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="التسويق" href="{{route('development')}}">التسويق</a>
           <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="التسويق" href="#">التصميم</a>
           <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="البرمجة" href="#">البرمجة</a>
@@ -99,11 +100,11 @@
       </div>
     </div>
     <!-- button action  -->
-    <div class="#bg-pink-300 w-full  h-40 flex flex-row   -mt-10 text-center justify-items-center justify-center items-start align-middle  ">
+    <div onclick="window.scrollBy(0, 850);" class="#bg-pink-300 w-full  h-40 flex flex-row   -mt-10 text-center justify-items-center justify-center items-start align-middle  ">
       <div class=" py-4 px-10 cursor-pointer text-white text-center text-3xl  mt-0 h-20 rounded-xl bg-purple">انشئ متجرك</div>
     </div>
   </section>
-  <section class="  w-full h-screen ">
+  <section class="  w-full h-full ">
     <div class="flex flex-row w-full h-auto mt-8">
       <div class="flex flex-col w-1/2 h-full #border-2 items-center   p-2">
         <p class="txt-color-purple text-4xl #font_Cairo px-2 font-black">انشئ متجرك على زد </p>
@@ -115,10 +116,10 @@
           <div class="bx w-40 h-10 px-2 mr-18 text-center  border-4 txt-color-purple   rounded-lg text-3xl">الاساسية</div>
           <div class="bx w-40 h-10 px-2 mr-18 text-center  border-4 txt-color-purple   rounded-lg text-3xl font-black">نمو</div>
         </div>
-        <!-- row -->
-        <div class="w-1/2 h-500 flex flex-row #bg-red-400 items-center  justify-center mt-7 gap-4 p-2">
+        <!-- row #important -->
+        <!-- <div class="w-1/2 h-500 flex flex-row #bg-red-400 items-center  justify-center mt-7 gap-4 p-2">
           <p class="px-3 mr-5 txt-color-purple">الباقات التي تقدمها منصة زد</p><img alt="video compaire between salla and zid" src="{{ asset('images/icon_video.svg') }}" />
-        </div>
+        </div> -->
         <div class="text-center items-center w-1/2">
           <p class="text-xs txt-color-purple ">الفرق بين الباقتين هو ان متجرك بباقة نمو
             · استيراد وتحديث المنتجات بملف الاكسل
@@ -143,10 +144,10 @@
           <div class="bx w-40 h-10 px-2 mr-18 text-center  border-4 txt-color-purple   rounded-lg text-3xl">برو</div>
           <div class="bx w-40 h-10 px-2 py-1 mr-18 text-center  border-4 txt-color-purple   rounded-lg text-3xl font-black">بلس</div>
         </div>
-        <!-- row -->
-        <div class="w-1/2 h-500 flex flex-row #bg-red-400 items-center  justify-center mt-7 gap-4 p-2">
+        <!-- row #important -->
+        <!-- <div class="w-1/2 h-500 flex flex-row #bg-red-400 items-center  justify-center mt-7 gap-4 p-2">
           <p class="px-3 mr-5 txt-color-purple">الباقات التي تقدمها منصة سلة</p><img alt="video compaire between zid and salla" src="{{ asset('images/icon_video.svg') }}" />
-        </div>
+        </div> -->
         <div class="text-center items-center w-1/2">
           <p class="text-xs txt-color-purple ">الفرق الجوهري بين الباقتين هو ان متجرك بباقة برو سيكون مميزا عن باقي متاجر سلة بفضل ميزة ال
             برمجة سي اس اس
@@ -156,33 +157,132 @@
             و إمكانية الربط مع الخدمات المحاسبية و غيرها من المميزات
           </p>
         </div>
-        <!-- row switch -->
-        <div class="flex flex-row w-1/2 bg-green-50 rounded-3xl mt-20 items-center justify-evenly">
-          <div class=" w-40 h-10 px-2 mr-18 text-center border-purple-500  border-2 cursor-pointer  rounded-3xl text-3xl txt-color-purple">زد</div>
-          <div class=" w-40 h-10 px-2 mr-18 text-center  border-2 border-green-400 cursor-pointer  text-green-500    rounded-3xl text-3xl font-black">سلة</div>
-        </div>
+
       </div>
 
   </section>
-
+  <!-- row switch -->
+  <div class="bg-gray-100 flex flex-row h-16 items-center justify-evenly mt-2 mb-2 relative rounded-3xl w-full">
+    <div class=" w-40 h-10 px-2 mr-18 text-center border-purple-500  border-2 cursor-pointer  rounded-3xl text-3xl txt-color-purple">زد</div>
+    <div class=" w-40 h-10 px-2 mr-18 text-center  border-2 border-green-400 cursor-pointer  text-green-500    rounded-3xl text-3xl font-black">سلة</div>
+  </div>
 
   <section>
 
   </section>
-  <!-- تسعيرات row  -->
+  <!-- تسعيرات row 2 container -->
   <section class="flex flex-row  #bg-yellow-900 h-screen w-full items-center space-x-20 justify-center mt-1">
-    <article class="w-1/3 h-3/4 bg-green-500 rounded-3xl ">
-      <div class="flex flex-row relative #bg-yellow-900 w-full h-1/6 ">
-        <p class=" absolute left-1/3  top-5  text-center  font-light  font_Cairo text-5xl   text-white "><i class="text-sm p-3 float-left">ريال</i> 850 </p>
+    <!-- pro -->
+    <article class="w-1/3 h-full bg-green rounded-t-3xl  ">
+      <!-- header list row -->
+      <div class="flex flex-row relative #bg-yellow-900 w-full h-20 ">
+        <p class=" text-white  absolute left-1/3  top-5  text-center  font-light  font_Cairo text-5xl   "><i class="text-sm p-3 float-left">ريال</i> 1299 </p>
         <span class=" absolute w-20  h-10  text-center m-5 font-bold font_Cairo rounded-xl text-3xl  bg-white text-green-500 right-0">برو</span>
       </div>
+      <!-- list col -->
+      <ul class="#bg-red-400 flex flex-col h-3/4 items-center justify-items-center #overflow-y-scroll rtl-grid text-md ">
 
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> تصميم بنر الرئيسي (عدد1)</p>
+        </li>
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class="text-white li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> ربط خدمات الشحن</p>
+        </li>
+        <li class="#li-opacity   flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اضافة صفحة سياسة المتجر</p>
+        </li>
+        <li class="#li-opacity   flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اضافة صفحة سياسة الشحن</p>
+        </li>
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اختيار خدمة الشحن المناسبة</p>
+        </li>
+
+        <li class="  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class="li-opacity text-white h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> ربط خدمات الدفع الالكتروني</p>
+        </li>
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اضافة الاقسام وترتيبها</p>
+        </li>
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector-ok.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" bg-white txt-color-green  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4">اضافة منتجات وترتيبها عدد (5)</p>
+        </li>
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector-ok.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class="bg-white txt-color-green  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4">تصميم واجهة المتجر بستخدام كود ال CSS </p>
+        </li>
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class="text-white li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اختيار الدومين المناسب</p>
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4">اضافة حساب التواصل الاجتماعي</p>
+        </li>
+        <div class=" bg-white border-4 border-bg-green  p-5 rounded-3xl text-center text-3xl font-bold mx-2 txt-color-green w-full">
+          <a href="wa.me/966543201512" target="__blank" aria-label="أطلب الان">أطلب الان</a>
+        </div>
+
+      </ul>
     </article>
-    <article class="w-1/3 h-3/4  bg-purple rounded-xl">
+    <!-- plus -->
+    <article class=" bg-purple w-1/3 h-full  rounded-t-3xl ">
       <div class="flex flex-row relative #bg-yellow-900 w-full h-1/6 ">
-        <p class=" absolute left-1/3  top-5  text-center  font-light  font_Cairo text-5xl   text-white "><i class="text-sm p-3 float-left">ريال</i> 721 </p>
-        <span class=" absolute w-20  h-10  text-center m-5 font-bold font_Cairo rounded-xl text-3xl  bg-white text-green-500 right-0">بلس</span>
+        <p class=" absolute left-1/3  top-5  text-center  font-light  font_Cairo text-5xl   text-white "><i class="text-sm p-3 float-left">ريال</i> 950 </p>
+        <span class=" absolute w-20  h-10  text-center m-5 font-bold font_Cairo rounded-xl text-3xl  bg-white txt-color-purple right-0">بلس</span>
       </div>
+      <!-- list col -->
+      <ul class="#bg-red-400 flex flex-col h-3/4 items-center justify-items-center #overflow-y-scroll rtl-grid text-md ">
+
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> تصميم بنر الرئيسي (عدد1)</p>
+        </li>
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class="text-white li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> ربط خدمات الشحن</p>
+        </li>
+        <li class="#li-opacity   flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اضافة صفحة سياسة المتجر</p>
+        </li>
+        <li class="#li-opacity   flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اضافة صفحة سياسة الشحن</p>
+        </li>
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اختيار خدمة الشحن المناسبة</p>
+        </li>
+
+        <li class="  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class="li-opacity text-white h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> ربط خدمات الدفع الالكتروني</p>
+        </li>
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اضافة الاقسام وترتيبها</p>
+        </li>
+
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class="text-white li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اختيار الدومين المناسب</p>
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4">اضافة حساب التواصل الاجتماعي</p>
+        </li>
+        <div class=" bg-white border-4 border-bg-purple   p-5 rounded-3xl text-center text-3xl font-bold mt-20 mx-2 txt-color-purple w-full">
+          <a href="wa.me/966543201512" target="__blank" aria-label="أطلب الان">أطلب الان</a>
+        </div>
+
+      </ul>
     </article>
   </section>
   <!-- شركاء النجاح -->
@@ -222,7 +322,7 @@
 
 
   <footer class="footer-1 bg-gray-100 py-8 sm:py-12  flex   ">
-    <button aria-label="to top page" onclick="window.scrollBy(0, -2000);" class="up_icon" alt="اعلى الصفحة"><i class="fad fa-angle-up text-7xl text-yellow-500  ml-7"></i></button>
+    <button aria-label="to top page" onclick="window.scrollBy(0, -2000);" class="up_icon" alt="اعلى الصفحة"><i class="#fad #fa-angle-up text-6xl text-yellow-500  ml-7">^</i></button>
     <div class="container mx-auto px-4">
       <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
         <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 flex flex-col ">
@@ -286,10 +386,10 @@
               <a href="#" aria-label="المساعدة" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">المساعدة</a>
             </li>
             <li class="mb-2 mx-2">
-              <a href="https://wa.me/966543201512" aria-label="الاسئلةالشائعة" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">الاسئلة الشائعة</a>
+              <a href="https://wa.me/966543201512" target="__blank" aria-label="الاسئلةالشائعة" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">الاسئلة الشائعة</a>
             </li>
             <li class="mb-2 mx-2">
-              <a href="https://wa.me/966543201512" aria-label="ابق على الاتصال" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">ابق على الاتصال</a>
+              <a href="https://wa.me/966543201512 " target="__blank" aria-label="ابق على الاتصال" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">ابق على الاتصال</a>
             </li>
           </ul>
         </div>
