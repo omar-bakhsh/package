@@ -27,7 +27,7 @@
 
   <!-- Scripts -->
   <script src="{{ mix('js/app.js') }}" defer></script>
-  <script src="{{ mix('js/dragble.js') }}" defer></script>
+
   <style>
 
   </style>
@@ -162,9 +162,32 @@
 
   </section>
   <!-- row switch -->
-  <div class="bg-gray-100 flex flex-row h-16 items-center justify-evenly mt-2 mb-2 relative rounded-3xl w-full">
-    <div class=" w-40 h-10 px-2 mr-18 text-center border-purple-500  border-2 cursor-pointer  rounded-3xl text-3xl txt-color-purple">زد</div>
-    <div class=" w-40 h-10 px-2 mr-18 text-center  border-2 border-green-400 cursor-pointer  text-green-500    rounded-3xl text-3xl font-black">سلة</div>
+  <div class="bg-gray-100 flex flex-row h-16 items-center justify-center mt-2 mb-2 relative rounded-3xl w-full">
+    <div class="salla-txt w-40 h-10 px-2 mr-18 text-center   cursor-pointer text-green-500     rounded-3xl text-3xl font-black">سلة</div>
+
+
+    <!-- Toggle B -->
+    <div class="flex items-center justify-center ">
+
+      <label for="toggleB" class="flex items-center cursor-pointer">
+        <!-- toggle -->
+        <div class="relative">
+          <!-- input -->
+          <input type="checkbox" id="toggleB" class="sr-only">
+          <!-- line -->
+          <div class="sw-bg-css block bg-gray-500 w-14 h-8 rounded-full"></div>
+          <!-- dot -->
+          <div class="dot absolute left-1 top-1 bg-green w-6 h-6 rounded-full transition"></div>
+        </div>
+        <!-- label -->
+        <div class="ml-3 text-gray-700 font-medium">
+          <!-- اختصر المنصة -->
+        </div>
+      </label>
+
+    </div>
+    <div class="zid_txt w-40 h-10 px-2 mr-18 text-center   cursor-pointer  rounded-3xl text-3xl ">زد</div>
+
   </div>
 
   <section>

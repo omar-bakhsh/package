@@ -141,6 +141,14 @@ article li {
     /* animation: drop 1.2s forwards; */
 }
 
+
+/* switch  Button */
+
+input:checked~.dot {
+    transform: translateX(100%);
+    background-color: #8762f4;
+}
+
 @media screen and (max-width: 480px) {
     .image-animation-list {
         -webkit-animation: slide infinite 5s alternate;
