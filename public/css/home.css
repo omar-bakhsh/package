@@ -156,6 +156,17 @@ input:checked~.dot {
     }
 }
 
+
+/* .twitter-tweet.twitter-tweet-rendered {
+    max-height: 70%;
+    position: absolute;
+}
+
+iframe[id^="twitter-widget-"] {
+    width: 50px !important;
+    margin: 2px;
+} */
+
 @-webkit-keyframes slide {
     0% {
         margin-left: 0px;

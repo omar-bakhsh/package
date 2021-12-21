@@ -57,7 +57,7 @@ document.onkeydown = function (e) {// disable F12 key
 //     .forEach((e) => e.setAttribute("draggable", false));
 
 
-document; // event on input switch content zid salla
+document; // #event on input switch content zid salla
 
 document.querySelector("#toggleB").addEventListener("click", switch_zid_salla, null);
 
@@ -77,6 +77,17 @@ function switch_zid_salla() {
     salla_txt.classList.add("text-green-500");
     zid_txt.classList.remove("txt-color-purple");
   }
-}
+} // #scroll rating h
+
+
+var flavoursContainer = document.getElementById("flavoursContainer");
+var flavoursScrollWidth = flavoursContainer.scrollWidth;
+window.addEventListener("load", function () {
+  self.setInterval(function () {
+    if (flavoursContainer.scrollLeft !== flavoursScrollWidth) {
+      flavoursContainer.scrollTo(flavoursContainer.scrollLeft + 1, 0);
+    }
+  }, 15);
+});
 /******/ })()
 ;

@@ -59,7 +59,7 @@ document.onkeydown = function(e) {
 //     .forEach((e) => e.setAttribute("draggable", false));
 document;
 
-// event on input switch content zid salla
+// #event on input switch content zid salla
 document
     .querySelector("#toggleB")
     .addEventListener("click", switch_zid_salla, null);
@@ -81,3 +81,15 @@ function switch_zid_salla() {
         zid_txt.classList.remove("txt-color-purple");
     }
 }
+
+// #scroll rating h
+const flavoursContainer = document.getElementById("flavoursContainer");
+const flavoursScrollWidth = flavoursContainer.scrollWidth;
+
+window.addEventListener("load", () => {
+    self.setInterval(() => {
+        if (flavoursContainer.scrollLeft !== flavoursScrollWidth) {
+            flavoursContainer.scrollTo(flavoursContainer.scrollLeft + 1, 0);
+        }
+    }, 15);
+});

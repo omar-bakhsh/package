@@ -308,6 +308,50 @@
       </ul>
     </article>
   </section>
+  <!-- rating  -->
+  <section id="flavoursContainer" class=" mt-20 gap-10 h-1/2 relative  flex  items-center overflow-x-scroll overscroll-y-none">
+    <div class="w-1/3 h-18">
+      <blockquote class="twitter-tweet w-1/3  overflow-x-scroll absolute">
+        <p lang="ar" dir="rtl">رأي متجر شوب مي بخدماتنا 🎉😍🎈 <a href="https://t.co/EqJicTvtJA">pic.twitter.com/EqJicTvtJA</a></p>&mdash; بكج خدمات متجر سلة ᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ (@package_dev) <a href="https://twitter.com/package_dev/status/1470352893517705223?ref_src=twsrc%5Etfw">December 13, 2021</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="w-1/3 h-18">
+      <blockquote class="twitter-tweet">
+        <p lang="ar" dir="rtl">دعم الفني واستشارات مجانية لعملائنا 😍 <a href="https://t.co/huFJDTNH0c">pic.twitter.com/huFJDTNH0c</a></p>&mdash; بكج خدمات متجر سلة ᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ (@package_dev) <a href="https://twitter.com/package_dev/status/1470322611276165123?ref_src=twsrc%5Etfw">December 13, 2021</a>
+      </blockquote>
+
+    </div>
+    <div class="w-1/3 h-18">
+      <blockquote class="twitter-tweet">
+        <p lang="ar" dir="rtl">راي متجر جودليات في عملنا 🥰👌<br>👇👇 <a href="https://t.co/XYCCdDfgpG">pic.twitter.com/XYCCdDfgpG</a></p>&mdash; بكج خدمات متجر سلة ᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ (@package_dev) <a href="https://twitter.com/package_dev/status/1444481701040869376?ref_src=twsrc%5Etfw">October 3, 2021</a>
+      </blockquote>
+
+    </div>
+    <div class="w-1/3 h-18">
+      <blockquote class="twitter-tweet">
+        <p lang="ar" dir="rtl">راي متجر &quot; عدسه &quot; في عملنا 😍👌<a href="https://twitter.com/hashtag/%D8%B3%D9%84%D8%A9?src=hash&amp;ref_src=twsrc%5Etfw">#سلة</a> <a href="https://twitter.com/hashtag/%D8%B2%D8%AF?src=hash&amp;ref_src=twsrc%5Etfw">#زد</a> <a href="https://twitter.com/hashtag/%D9%85%D8%AA%D8%AC%D8%B1?src=hash&amp;ref_src=twsrc%5Etfw">#متجر</a> <a href="https://twitter.com/hashtag/%D9%81%D8%B1%D9%8A%D9%82_%D8%A8%D9%83%D8%AC?src=hash&amp;ref_src=twsrc%5Etfw">#فريق_بكج</a> <a href="https://t.co/0sHkeIrrfs">pic.twitter.com/0sHkeIrrfs</a></p>&mdash; بكج خدمات متجر سلة ᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ (@package_dev) <a href="https://twitter.com/package_dev/status/1443151257791762436?ref_src=twsrc%5Etfw">September 29, 2021</a>
+      </blockquote>
+
+    </div>
+    <div class="w-1/3 h-18">
+      <blockquote class="twitter-tweet">
+        <p lang="ar" dir="rtl">بكج تبارك لمتجر كروز للعطور تجهيز المتجر وبدأ في البيع 😍💖<a href="https://twitter.com/hashtag/%D8%B3%D9%84%D8%A9?src=hash&amp;ref_src=twsrc%5Etfw">#سلة</a> <a href="https://twitter.com/hashtag/%D9%85%D8%AA%D8%AC%D8%B1_%D8%B3%D9%84%D8%A9?src=hash&amp;ref_src=twsrc%5Etfw">#متجر_سلة</a> <a href="https://twitter.com/hashtag/%D8%AA%D8%B7%D8%A8%D9%8A%D9%82_%D8%B3%D9%84%D8%A9?src=hash&amp;ref_src=twsrc%5Etfw">#تطبيق_سلة</a> <a href="https://t.co/Pb0ys3Ppno">pic.twitter.com/Pb0ys3Ppno</a></p>&mdash; بكج خدمات متجر سلة ᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ (@package_dev) <a href="https://twitter.com/package_dev/status/1439235842548064263?ref_src=twsrc%5Etfw">September 18, 2021</a>
+      </blockquote>
+
+    </div>
+    <div class="w-1/3 h-18"> </div>
+    <div class="w-1/3 h-18"> </div>
+    <div class="w-1/3 h-18">
+      <blockquote class="twitter-tweet">
+        <p lang="ar" dir="rtl">رأي متجر اورنج بعملنا بعد تجهيز المتجر له . <br>رابط المتجر: <a href="https://t.co/gblctJkH9Y">https://t.co/gblctJkH9Y</a> <br>.<br>.<br>اطلب متجرك الان : <a href="https://t.co/sla7hW4Oqf">https://t.co/sla7hW4Oqf</a> <a href="https://twitter.com/hashtag/%D8%B3%D9%84%D8%A9?src=hash&amp;ref_src=twsrc%5Etfw">#سلة</a> <a href="https://twitter.com/hashtag/%D8%B2%D8%AF?src=hash&amp;ref_src=twsrc%5Etfw">#زد</a> <a href="https://twitter.com/hashtag/%D9%85%D8%AA%D8%AC%D8%B1?src=hash&amp;ref_src=twsrc%5Etfw">#متجر</a> <a href="https://twitter.com/hashtag/%D9%85%D8%AA%D8%AC%D8%B1_%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A?src=hash&amp;ref_src=twsrc%5Etfw">#متجر_الكتروني</a> <a href="https://twitter.com/hashtag/web?src=hash&amp;ref_src=twsrc%5Etfw">#web</a> <a href="https://twitter.com/hashtag/%D8%AA%D8%B5%D9%85%D9%8A%D9%85?src=hash&amp;ref_src=twsrc%5Etfw">#تصميم</a> <a href="https://t.co/Yd9WI5K26q">pic.twitter.com/Yd9WI5K26q</a></p>&mdash; بكج خدمات متجر سلة ᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ (@package_dev) <a href="https://twitter.com/package_dev/status/1399352174161793037?ref_src=twsrc%5Etfw">May 31, 2021</a>
+      </blockquote>
+    </div>
+  </section>
+
+
+
+
   <!-- شركاء النجاح -->
   <section class="flex flex-col h-screen #bg-green-200 w-full #bg-yellow-600 items-center justify-center">
     <div class="  text-center txt-color-purple text-6xl  font-black">
