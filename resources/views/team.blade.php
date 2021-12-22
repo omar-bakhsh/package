@@ -11,6 +11,24 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5RXJBGM');
+  </script>
+  <!-- End Google Tag Manager -->
 
   <!-- Styles -->
   <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
@@ -38,7 +56,9 @@
 
   </header>
 
-  <div class="w-full flex flex-row  content-center text-center items-center justify-center"><h1 class="bg-purple-500 rounded-md text-white p-4 w-1/3">فريق العمل</h1></div>
+  <div class="w-full flex flex-row  content-center text-center items-center justify-center">
+    <h1 class="bg-purple-500 rounded-md text-white p-4 w-1/3">فريق العمل</h1>
+  </div>
   <div class="container my-12 mx-auto px-4 md:px-12">
     <div class="flex flex-wrap -mx-1 lg:-mx-4">
 

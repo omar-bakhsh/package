@@ -70,15 +70,29 @@ function switch_zid_salla() {
     // Get the text color
     var salla_txt = document.querySelector(".salla-txt");
     var zid_txt = document.querySelector(".zid_txt");
+    var zid_price = document.querySelectorAll(".price_zid");
+    var salla_price = document.querySelectorAll(".price_salla");
     // If the checkbox is checked, zid  txt-color-purple
     if (checkBox.checked == true) {
-        // zid add
+        // zid switch text color
         zid_txt.classList.add("txt-color-purple");
         salla_txt.classList.remove("text-green-500");
+        // salla hide
+        salla_price[0].classList.add("hidden");
+        salla_price[1].classList.add("hidden");
+        // zid show
+        zid_price[0].classList.remove("hidden");
+        zid_price[1].classList.remove("hidden");
     } else {
-        // salla defult
+        // salla switch text color defult
         salla_txt.classList.add("text-green-500");
         zid_txt.classList.remove("txt-color-purple");
+        // salla show
+        salla_price[0].classList.remove("hidden");
+        salla_price[1].classList.remove("hidden");
+        // zid hide
+        zid_price[0].classList.add("hidden");
+        zid_price[1].classList.add("hidden");
     }
 }
 

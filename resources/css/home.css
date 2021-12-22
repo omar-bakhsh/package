@@ -43,6 +43,12 @@
     border: solid 4px #5cd5c4;
 }
 
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .rtl-grid {
     direction: rtl;
 }
