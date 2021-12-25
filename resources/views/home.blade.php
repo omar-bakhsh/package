@@ -39,12 +39,12 @@
 
   <!-- Styles -->
   <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-  <link rel="stylesheet" href="{{ mix('css/home.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/home.css') }}">
   @livewireStyles
 
   <!-- Scripts -->
-  <script src="{{ mix('js/app.js') }}" defer></script>
+  <script src="{{ asset('js/app.js') }}" defer></script>
 
   <style>
 
@@ -72,8 +72,8 @@
           <!--   <a href="{{route('service_policy')}}" aria-label="سياسة الخدمات" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">سياسة الخدمات</a> -->
           <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="دروب شوبينج" href="{{route('drop_shoping')}}">دروب شوبينج</a>
           <a class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="التسويق" href="{{route('development')}}">التسويق</a>
-          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="التسويق" href="{{route('programming')}}">التصميم</a>
-          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="البرمجة" href="{{route('programming')}}">البرمجة</a>
+          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="التسويق" href="{{route('coding')}}">التصميم</a>
+          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" aria-label="البرمجة" href="{{route('coding')}}">البرمجة</a>
           <a onclick="window.scrollBy(0, 850);" class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg bg-purple  dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline text-white" aria-label="انشئ المتجر" href="#">انشئ المتجر</a>
           <div @click.away="open = false" class="relative" x-data="{ open: false }">
             <button aria-label="menue open" @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
@@ -528,7 +528,7 @@
               <a href="{{route('development')}}" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">التطبيقات</a>
             </li>
             <li class="mb-2 mx-1">
-              <a href="{{route('programming')}}" aria-label="التصميم" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">التصميم</a>
+              <a href="{{route('coding')}}" aria-label="التصميم" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">التصميم</a>
             </li>
             <li class="mb-2 mx-1">
               <a href="#" aria-label="التسويق" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">التسويق</a>
@@ -608,7 +608,7 @@
 
     </div>
   </footer>
-  <script src="{{ mix('js/dragble.js') }}"></script>
+  <script src="{{ asset('js/dragble.js') }}"></script>
   @livewireScripts
 </body>
 
