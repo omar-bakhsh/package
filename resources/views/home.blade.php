@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>{{ config('app.name', 'Laravel') }}</title>
+  <title>بكج خدمات متاجر الكترونية</title>
   <!-- meta description -->
   <meta name="description" content="بكج تجهيز متاجر الكترونية تصميم بنرات وشعار و منتجات برمجة css للثيم ">
   <meta name="keywords" content="تصميم متجر , برمجة متجر , متجر سلة, سلة, بكج">
@@ -38,17 +38,42 @@
   <!-- End Google Tag Manager -->
 
   <!-- Styles -->
-  <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
   <link rel="stylesheet" href="{{ asset('css/home.css') }}">
+  <!-- icon title -->
+  <link rel="icon" type="image/png" href="http://sallla.site/images/logo-s.png" />
   @livewireStyles
 
   <!-- Scripts -->
   <script src="{{ asset('js/app.js') }}" defer></script>
+  <script>
+    //switch device to page 
+    var brow = navigator.userAgent;
+    if (/mobi/i.test(brow)) {
+      alert('Mobile Browser');
+      //  for mobile
+      window.location.href = "http://sallla.site/mobile";
+    } else {
+      // alert('Not on Mobile');
+      // for Desktop window.location = window.location.host or window.location = window.location.href.replace("/mobile", "/");
 
-  <style>
 
-  </style>
+    }
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-216010756-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-216010756-1');
+  </script>
 
 </head>
 
@@ -218,7 +243,7 @@
     <article class="price_salla w-1/3 h-full bg-green rounded-t-3xl  ">
       <!-- header list row -->
       <div class="flex flex-row relative #bg-yellow-900 w-full h-20 ">
-        <p class=" text-white  absolute left-1/3  top-5  text-center  font-light  font_Cairo text-5xl   "><i class="text-sm p-3 float-left">ريال</i> 999 </p>
+        <p class=" text-white  absolute left-1/3  top-5  text-center  font-light  font_Cairo text-5xl   "><i class="text-sm p-3 float-left">ريال</i> 991 </p>
         <span class=" absolute w-20  h-10  text-center m-5 font-bold font_Cairo rounded-xl text-3xl  bg-white text-green-500 right-0">برو</span>
       </div>
       <!-- list col -->
@@ -236,13 +261,13 @@
           <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
           <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اضافة صفحة سياسة المتجر</p>
         </li>
-        <li class="#li-opacity   flex-row flex py-1 justify-center items-center  w-full">
-          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
-          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اضافة صفحة سياسة الشحن</p>
+        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
+          <img alt="list package salla " src="{{ asset('images/Vector-ok.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
+          <p class=" bg-white txt-color-green   overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اضافة صفحة سياسة الخصوصية</p>
         </li>
         <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
           <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
-          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اختيار خدمة الشحن المناسبة</p>
+          <p class="bg-white   text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> توثيق المتجر </p>
         </li>
 
         <li class="  flex-row flex py-1 justify-center items-center  w-full">
@@ -255,7 +280,7 @@
         </li>
         <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
           <img alt="list package salla " src="{{ asset('images/Vector-ok.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
-          <p class="bg-white txt-color-green  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4">تصميم واجهة المتجر بستخدام كود ال CSS </p>
+          <p class="bg-white txt-color-green   overflow-hidden py-2 mt-2 rounded-3xl w-3/4">تصميم واجهة المتجر بستخدام كود ال CSS </p>
         </li>
         <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
           <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
@@ -291,13 +316,9 @@
           <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
           <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اضافة صفحة سياسة المتجر</p>
         </li>
-        <li class="#li-opacity   flex-row flex py-1 justify-center items-center  w-full">
+        <li class=" flex-row flex py-1 justify-center items-center  w-full">
           <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
-          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اضافة صفحة سياسة الشحن</p>
-        </li>
-        <li class="#bg-white  flex-row flex py-1 justify-center items-center  w-full">
-          <img alt="list package salla " src="{{ asset('images/Vector.png') }}" class="h-6 inline mt-2 ml-7 rtl ">
-          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> اختيار خدمة الشحن المناسبة</p>
+          <p class=" text-white  li-opacity  h-10 overflow-hidden py-2 mt-2 rounded-3xl w-3/4"> توثيق المتجر</p>
         </li>
 
         <li class="  flex-row flex py-1 justify-center items-center  w-full">
@@ -438,7 +459,13 @@
     </article>
   </section>
   <!-- rating  -->
-  <section id="flavoursContainer" class=" mt-28 gap-10 h-1/2 relative  flex  items-center overflow-x-scroll overscroll-y-none">
+  <h1 class="#fa-angle-up mt-28 text-4xl text-center w-full">اراء العملاء</h1>
+  <section id="flavoursContainer" class=" mt-2 gap-10 h-1/2 relative  flex  items-center overflow-x-scroll overscroll-y-none">
+    <div class=" h-18">
+      <blockquote class="twitter-tweet">
+        <p lang="ar" dir="rtl">خدمة جميله ومميزه وسرعة تجاوب تشرفت بالتعامل معكم يعطيكم الف عافيه متجر راڤينا</p>&mdash; عطور راڤينا (@ravenna2021) <a href="https://twitter.com/ravenna2021/status/1474888688396124166?ref_src=twsrc%5Etfw">December 25, 2021</a>
+      </blockquote>
+    </div>
     <div class="w-1/3 h-18">
       <blockquote class="twitter-tweet w-1/3  overflow-x-scroll absolute">
         <p lang="ar" dir="rtl">رأي متجر شوب مي بخدماتنا 🎉😍🎈 <a href="https://t.co/EqJicTvtJA">pic.twitter.com/EqJicTvtJA</a></p>&mdash; بكج خدمات متجر سلة ᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ (@package_dev) <a href="https://twitter.com/package_dev/status/1470352893517705223?ref_src=twsrc%5Etfw">December 13, 2021</a>

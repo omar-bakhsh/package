@@ -1,7 +1,46 @@
 <!DOCTYPE html>
+
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
+
+
 <head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+
+
+
+  <title>سياسة خدمات بكج</title>
+
+  <!-- font aowsome icons -->
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- meta description -->
+  <meta name="description" content=" سياسة خدمات بكج">
+  <meta name="keywords" content="تصميم متجر , برمجة متجر , متجر سلة, سلة, بكج">
+  <meta name="author" content="تصميم متاجر سلة وزد باحترافية عالية ">
+  <meta property="og:title" content="التجارة الإلكترونية مع سلة - حلك العملي لإنشاء متجر إلكتروني في ثوانٍ معدودات">
+  <meta property="og:description" content="سهّلنا لك التجارة الإلكترونية حيث يمكنك الآن إنشاء متجر إلكتروني في دقائق معدودة دون أي عمولة على المبيعات!">
+  <meta property="og:url" content="https://sallla.site">
+  <meta property="og:site_name" content="سلة">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="التجارة الإلكترونية مع سلة وزد - حلك العملي لإنشاء متجر إلكتروني في ثوانٍ معدودات">
+  <meta name="twitter:description" content="سهّلنا لك التجارة الإلكترونية حيث يمكنك الآن إنشاء متجر إلكتروني مع بكج دقائق معدودة دون أي عمولة على المبيعات!">
+  <!-- font aowsome icons -->
+  <!-- Fonts -->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+
   <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
@@ -21,28 +60,55 @@
   </script>
   <!-- End Google Tag Manager -->
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-216010756-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  <title>{{ config('app.name', 'Laravel') }}</title>
-  <!-- font aowsome icons -->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <!-- Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
+    gtag('config', 'UA-216010756-1');
+  </script>
   <!-- Styles -->
+
   <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-  <link rel="stylesheet" href="{{ mix('css/home.css') }}">
+
+  <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
+  <link rel="stylesheet" href="{{ asset('css/home.css') }}">
+
   @livewireStyles
 
+
+
   <!-- Scripts -->
-  <script src="{{ mix('js/app.js') }}" defer></script>
-  <script src="{{ mix('js/dragble.js') }}" defer></script>
+  <script>
+    var brow = navigator.userAgent;
+    if (/mobi/i.test(brow)) {
+      // alert('Mobile Browser');
+      //  for mobile window.location.href = "http://sallla.site/mobile";
+
+    } else {
+      // alert('Not on Mobile');
+      // for Desktop window.location = window.location.host or window.location = window.location.href.replace("/mobile", "/");
+      window.location = "http://sallla.site/";
+
+    }
+  </script>
+  <script src="{{ asset('js/app.js') }}" defer></script>
+
+  <script src="{{ asset('js/dragble.js') }}" defer></script>
+
   <style>
 
+
+
   </style>
+
 </head>
 
 <body class="r-0 mr-0 p-0  select-none">
@@ -82,7 +148,7 @@
       <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
         <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
           <h5 class="text-xl font-bold mb-6">الخدمات</h5>
-          <ul class="list-none footer-links">
+          <ul class="list-none  flex footer-links justify-around list-none">
             <li class="mb-2">
               <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">التطبيقات</a>
             </li>
@@ -102,7 +168,7 @@
         </div>
         <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
           <h5 class="text-xl font-bold mb-6">المصادر</h5>
-          <ul class="list-none footer-links">
+          <ul class="list-none flex footer-links justify-around list-none">
             <li class="mb-2">
               <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">اعمالنا</a>
             </li>
@@ -116,7 +182,7 @@
         </div>
         <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
           <h5 class="text-xl font-bold mb-6">حول</h5>
-          <ul class="list-none footer-links">
+          <ul class="list-none flex footer-links justify-around list-none">
             <li class="mb-2">
               <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">الفريق</a>
             </li>
@@ -133,7 +199,7 @@
         </div>
         <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
           <h5 class="text-xl font-bold mb-6">المساعدة </h5>
-          <ul class="list-none footer-links">
+          <ul class="list-none footer-links flex  justify-around list-none">
             <li class="mb-2">
               <a href="https://wa.me/966543201512" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">الاسئلة الشائعة</a>
             </li>
@@ -164,7 +230,7 @@
 
     </div>
   </footer>
-  <script src="{{ mix('js/dragble.js') }}"></script>
+  <script src="{{ asset('js/dragble.js') }}"></script>
   @livewireScripts
 </body>
 
